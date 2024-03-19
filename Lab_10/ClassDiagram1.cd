@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClassLibrary.Auto">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="ClassLibrary.Auto.IdNumber" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClassLibrary.OffRoad">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClassLibrary.Passenger">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClassLibrary.Truck">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab_10.GeneralizedCollection&lt;T&gt;">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAABAAAgAAAAAIhAAABIAEAAAAEAAAAAQAAIAAABA=</HashCode>
+      <FileName>GeneralizedCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab_10.TestCollections">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACGgBAAAAAAAAAgAAAAAAAEAgAAAAEAAQAAA=</HashCode>
+      <FileName>TestCollections.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab_10.UniversalСollection">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAABAAAgAAAAAIhAAADIAEAAAAEAAAAAQAAIAAABA=</HashCode>
+      <FileName>UniversalСollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ClassLibrary.IInit">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
