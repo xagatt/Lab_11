@@ -14,7 +14,7 @@ namespace Lab_10
             autos.Add(auto);
         }
 
-        // Метод для добавления нового автомобиля
+        // добавление нового автомобиля
         public void AddNewAuto()
         {
             bool isGenerated = false;
@@ -86,7 +86,7 @@ namespace Lab_10
             }
         }
 
-        // Метод для удаления автомобиля по индексу
+        // удаление автомобиля по индексу
         public void RemoveAuto(int index)
         {
             if (index >= 0 && index < autos.Count)
@@ -99,7 +99,7 @@ namespace Lab_10
             }
         }
 
-        // Метод для вывода информации о коллекции
+        // вывод информации о коллекции
         public void PrintCollection()
         {
             Console.WriteLine("Информация о коллекции автомобилей:");
@@ -116,7 +116,7 @@ namespace Lab_10
             }
         }
 
-        // Метод для вычисления количества легковых автомобилей
+        // вычисления количества легковых автомобилей
         public int ReturnCountOfLights()
         {
             int count = 0;
@@ -130,7 +130,7 @@ namespace Lab_10
             return count;
         }
 
-        // Метод для печати грузовых автомобилей
+        // печать грузовых автомобилей
         public void PrintOnlyHeavyCars()
         {
             int count = 0;
@@ -148,7 +148,7 @@ namespace Lab_10
             }
         }
 
-        // Метод для вычисления, является ли автомобиль внедорожником
+        // является ли автомобиль внедорожником
         public bool CheckIsOffRoad(int index)
         {
             if (autos[index].GetType() == typeof(OffRoad) && index >= 0 && index < autos.Count)
@@ -161,7 +161,7 @@ namespace Lab_10
             }
         }
 
-        //Клонирование коллекции
+        // клонирование коллекции
         public object Clone()
         {
             UniversalСollection clonedCollection = new UniversalСollection();
@@ -173,7 +173,7 @@ namespace Lab_10
             return clonedCollection;
         }
 
-        // Метод для сортировки коллекции по году выпуска
+        // сортировка коллекции по году выпуска
         public void SortByYear()
         {
             autos.Sort((a1, a2) => a1.Year.CompareTo(a2.Year));
